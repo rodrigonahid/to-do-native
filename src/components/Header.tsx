@@ -18,7 +18,6 @@ export function Header({ tasksCounter }: HeaderProps) {
     } else {
       setTasksCounterText("tarefas");
     }
-    console.log(tasksCounter);
   }, [tasksCounter]);
 
   return (

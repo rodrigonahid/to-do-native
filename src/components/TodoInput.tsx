@@ -18,7 +18,6 @@ export function TodoInput({ addTask }: TodoInputProps) {
 
   function handleChangeText(e: string) {
     setTask(e);
-    console.log(task);
   }
 
   return (
